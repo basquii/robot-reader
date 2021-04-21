@@ -1,0 +1,150 @@
+*{
+box-sizing: border-box;
+margin:0;
+}
+.particlehead {
+  background: #000000;
+  margin-top: -10%;
+}
+
+h1 {
+  font-size: 31px;
+  color: #202022;
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-left: -350px;
+  margin-top: -20px;
+  pointer-events: none;
+}
+
+h1 strong {
+  font-weight: 700;
+}
+
+h1 em {
+  font-family: 'Playfair Display', serif;
+  text-transform: lowercase;
+  font-style: italic;
+}
+body {
+  margin: -120px auto;
+  margin-top: 1rem;
+  background-size: cover;
+  background: black;
+  font-family: arial;
+}
+
+#text {
+  margin: 0 auto;
+  display: block;
+  color: white;
+  width: 50%;
+  height: 25vh;
+  font-size: 1.9rem;
+  background: transparent;
+  padding: 10px;
+  font-family: arial;
+  outline: none !important;
+  /* text-transform: capitalize; */
+  border-radius: 5px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+label {
+  color: white;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.row {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#speed {
+  width: 20%;
+  height: 45px;
+  font-size: 18px;
+  font-family: arial;
+  margin-left: 5px;
+  outline: none;
+  background: transparent;
+  border: 4px solid #ff0101;
+  border-radius: 5px;
+  color: white;
+}
+button {
+  padding: 10px 0;
+  width: 200px;
+  font-size: 18px;
+  font-family: arial;
+  background: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: .5s;
+  outline: none;
+}
+
+button:hover {
+  background: #f80101;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+footer {
+  background: white;
+  color: black;
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+  margin-right: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.title {
+  transform: rotate(90deg);
+  left: 27%;
+  top: 35%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(255, 7, 7);
+  font-weight: 700;
+  font-size: 1.9rem;
+
+}
+
+.des {
+  font-size: 1.5rem;
+  margin-top: -400px;
+  text-align: center;
+  color: hsl(0, 100%, 49%);
+}
+
